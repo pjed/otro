@@ -1,13 +1,12 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * 
  */
 package javaappotro;
 
 /**
  *
  * @author daw201
+ * @since 1.0
  */
 public class JavaAppOtro {
 
@@ -15,7 +14,27 @@ public class JavaAppOtro {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        int i = 0;
     }
-    
+
+    private String variable_a;
+
+    /**
+     * Get the value of variable_a
+     *
+     * @return the value of variable_a
+     */
+    public String getVariable_a() {
+        return variable_a;
+    }
+
+    /**
+     * Set the value of variable_a
+     *
+     * @param variable_a new value of variable_a
+     */
+    public void setVariable_a(String variable_a) {
+        this.variable_a = variable_a;
+    }
+
 }
