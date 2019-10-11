@@ -3,10 +3,12 @@ package javaappotro;
 /**
  *
  * @author daw201
+ * @since 2019
  */
 public class Ayuda {
 
     private static String help = "esto es una ayuda";
+    private static String help2 = "esto es otra ayuda";
 
     public Ayuda() {
 
@@ -27,7 +29,7 @@ public class Ayuda {
 
     @Override
     public String toString() {
-        return "Ayuda{" + "help=" + help + '}';
+        return "Ayuda{" + "help=ALIOLI" + help + '}';
     }
 
     /**

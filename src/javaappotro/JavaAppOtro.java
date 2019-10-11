@@ -15,7 +15,8 @@ public class JavaAppOtro {
      */
     public static void main(String[] args) {
         int i = 0;
-        String aux = "ESto es una prueba";
+        String aux = "ESto es una prueba ALIOLI";
+        String aux2 = "Acabo de añadir esto";
     }
 
     private String variable_a;
