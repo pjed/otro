@@ -14,11 +14,6 @@ public class Ayuda {
 
     }
 
-    /**
-     * Get the value of help
-     *
-     * @return the value of help
-     */
     public static String getHelp() {
         return help;
     }
@@ -32,11 +27,6 @@ public class Ayuda {
         return "Ayuda{" + "help=ALIOLI" + help + '}';
     }
 
-    /**
-     * Set the value of help
-     *
-     * @param help new value of help
-     */
     public void setHelp(String help) {
         this.help = help;
     }
